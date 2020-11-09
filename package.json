@@ -1,0 +1,37 @@
+{
+  "name": "Photomiracle",
+  "version": "1.0.0",
+  "description": "Usługi fotograficzne Photomiracle",
+  "homepage": "https://photomiracle.pl",
+  "author": {
+    "name": "Konrad Kajszczak",
+    "email": "216790@edu.p.lodz.pl"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "prod": "nuxt build && nuxt start"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "nuxt": "^2.0.0",
+    "nuxt-lazy-load": "^1.0.7",
+    "nuxt-purgecss": "^0.2.1",
+    "nuxt-webfontloader": "^1.1.0",
+    "tiny-slider": "^2.9.2",
+    "vue-carousel": "^0.18.0",
+    "vue-owl-carousel": "^2.0.3",
+    "vue-tiny-slider": "^0.1.39",
+    "vue2-google-maps": "^0.10.7"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "node-sass": "^4.14.1",
+    "prettier": "^1.19.1",
+    "sass-loader": "^8.0.2"
+  }
+}
